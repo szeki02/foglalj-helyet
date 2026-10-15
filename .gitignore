@@ -1,0 +1,9 @@
+# too big for GitHub (about 195 MB each)
+rhino/
+# raw survey photos with recognisable people; the site uses blurred selections in web/presentation
+photos/
+.claude/
+# the old, out-of-date A3 sheet
+docs/Alfoldi6_workshopok.pdf
+__pycache__/
+*.pyc

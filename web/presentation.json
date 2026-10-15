@@ -1,0 +1,208 @@
+{
+  "_note": "The 7-minute presentation (the Bemutató button, or index.html#present). One click = one slide. Sections carry their share of the 7 minutes; the presenter's clock turns orange when a section runs over. Slide kinds: 'title' and 'model' show the 3D yard at a timeline stop ('w1' = the finished workshop, 'w1-build' = halfway through it); 'media' shows pictures from web/presentation/ (empty 'images' = a placeholder until the material is added; layout 'lead' = the first picture large, the rest beside it; a click on a picture opens it full size). 'split' = words (points, a 'cite' source line) beside pictures; kind 'steps' = the timeline; kind 'popup' = a concept window over the model (× or Esc puts it away). 'byline' = authors, 'cite' = where the words come from. In a model slide: 'tour' = hold one of that workshop's midway tour views (index from 0), 'view' = own camera {az, el, dist, focus [s, n]}, 'xray' = fade what stands in front of that zone, 'spin' = turn slowly (steep enough to stay over the yard all the way round), 'canopy' = tree crowns see-through at this opacity. 'notes' = what to say, not shown on the slide (the titles stand alone). Every text is {hu, en}; an 'eyebrow' left out is made from the stop (workshop number, in progress).",
+  "minutes": 7,
+  "sections": [
+    {
+      "id": "intro",
+      "label": { "hu": "Előzmények", "en": "Background" },
+      "minutes": 2.5,
+      "slides": [
+        { "kind": "title", "stop": "today", "spin": true, "canopy": 0.35, "view": { "az": 10, "el": 78, "dist": 42, "focus": [4.6, 4.5] },
+          "eyebrow": { "hu": "Budapest VIII · Alföldi utca 6", "en": "Budapest VIII · Alföldi utca 6" },
+          "title": { "hu": "Foglalj helyet :)", "en": "Foglalj helyet :)" },
+          "notes": { "hu": "Ez a ti udvarotok. Workshopokban, közösen alakítjuk át.", "en": "This is your courtyard. Together, in workshops, we remake it." },
+          "byline": { "hu": "2026. október · Sandrini Anna Lena, Szekeres Dávid, Rosenberg-Hagymásy Lilla", "en": "October 2026 · Sandrini Anna Lena, Szekeres Dávid, Rosenberg-Hagymásy Lilla" },
+          "qr": { "src": "presentation/qr_site.svg", "_": "opens https://claude.ai/artifact/8aqkSCDkzvrvtPV5FihLDD (made with qrcode-generator 1.4.4, level M)",
+                  "alt": { "hu": "QR-kód: a projekt honlapja", "en": "QR code: the project website" },
+                  "label": { "hu": "Nézd meg a telefonodon", "en": "Open it on your phone" } } },
+        { "kind": "media", "layout": "lead",
+          "title": { "hu": "Helyszínelemzés", "en": "Site analysis" },
+          "notes": { "hu": "Kézi helyszínrajz: ami most az udvaron van, ami nem működik, és az első ötletek.", "en": "A hand-drawn site plan: what the yard has now, what doesn't work, and the first ideas." },
+          "images": [
+            { "src": "presentation/site_drawing.jpg", "alt": { "hu": "Kézi helyszínrajz az udvarról, jegyzetekkel", "en": "Hand-drawn site plan of the yard, with notes" },
+              "caption": { "hu": "Helyszínrajz, vázlat", "en": "Site plan, sketch" } },
+            { "src": "presentation/site_yard_gate.jpg", "alt": { "hu": "Az udvar a kapu felé", "en": "The yard towards the gate" },
+              "caption": { "hu": "Az udvar a kapu felé", "en": "The yard towards the gate" } },
+            { "src": "presentation/site_yard_west.jpg", "alt": { "hu": "Az udvar a tűzfalak és a fészer felé, a fűzfával és a gépházzal", "en": "The yard towards the firewalls and the lean-to, with the willow and the machinery house" },
+              "caption": { "hu": "Az udvar a tűzfalak felé", "en": "The yard towards the firewalls" } },
+            { "src": "presentation/site_planters.webp", "alt": { "hu": "A meglévő raklapágyások a festett tűzfal előtt", "en": "The existing pallet planters by the painted firewall" },
+              "caption": { "hu": "A meglévő raklapágyások", "en": "The existing pallet planters" } } ] },
+        { "kind": "media", "layout": "mosaic",
+          "_images": "user's site photos, 2026-10-15; chosen for composition, none with a recognisable face (the man in the WC doorway on the mural photo is blurred). 'wide' spans two columns, 'pos' moves the crop",
+          "title": { "hu": "A helyszín", "en": "The site" },
+          "notes": { "hu": "Magas tűzfalak, egy üvegezett gépház, fák, rámpa és egy fészer tele tárolt holmival.", "en": "Tall firewalls, a glazed machinery house, trees, a ramp and a lean-to full of stored things." },
+          "images": [
+            { "src": "presentation/site_gate.jpg", "wide": true, "pos": "60% 60%",
+              "alt": { "hu": "A zöld utcai kapu belülről", "en": "The green street gate from inside" }, "caption": { "hu": "Az utcai kapu", "en": "The street gate" } },
+            { "src": "presentation/site_wc_tower.jpg", "pos": "50% 70%",
+              "alt": { "hu": "A mosdó bejárata a lépcsőház alatt", "en": "The washroom entrance under the stair tower" }, "caption": { "hu": "Mosdó", "en": "Washroom" } },
+            { "src": "presentation/site_ramp_white_wall.jpg", "pos": "50% 30%",
+              "alt": { "hu": "A rámpa a fehérre meszelt tűzfal előtt", "en": "The ramp in front of the whitewashed firewall" }, "caption": { "hu": "Rámpa, fehér fal", "en": "Ramp, white wall" } },
+            { "src": "presentation/site_machinery_long.jpg", "wide": true,
+              "alt": { "hu": "Az üvegezett gépház hosszan", "en": "The glazed machinery house, full length" }, "caption": { "hu": "Gépház", "en": "Machinery house" } },
+            { "src": "presentation/site_machinery_corner.jpg", "pos": "50% 65%",
+              "alt": { "hu": "A gépház sarka a tűzrakóval", "en": "The machinery house corner by the fire pit" }, "caption": { "hu": "Gépház sarka", "en": "Its corner" } },
+            { "src": "presentation/site_mural_shelter.jpg", "wide": true, "pos": "50% 45%",
+              "alt": { "hu": "Ágykeretek és matracok a festett fal előtti fedett tárolóban", "en": "Bed frames and mattresses in the covered store by the painted wall" }, "caption": { "hu": "Tárolt holmi", "en": "Stored things" } },
+            { "src": "presentation/site_garden_bed.jpg", "pos": "50% 60%",
+              "alt": { "hu": "Kert a gépház mentén, a kapu felé", "en": "The garden along the machinery house, towards the gate" }, "caption": { "hu": "Kert", "en": "Garden" } },
+            { "src": "presentation/site_tree_firewall.jpg", "pos": "40% 40%",
+              "alt": { "hu": "Fa és a szürke tűzfal", "en": "A tree and the grey firewall" }, "caption": { "hu": "Tűzfal", "en": "Firewall" } },
+            { "src": "presentation/site_ramp_leanto.jpg", "pos": "50% 55%",
+              "alt": { "hu": "A rámpa a fészer felé", "en": "The ramp towards the lean-to" }, "caption": { "hu": "Fészer", "en": "Lean-to" } } ] },
+        { "kind": "media", "layout": "split",
+          "_src": "Placemaking.pdf (Oct 2026), slide 'Megfigyelt lehetőségek'; the residents are not named",
+          "eyebrow": { "hu": "Beszélgetések", "en": "Conversations" },
+          "title": { "hu": "Mi hiányzik nektek?", "en": "What do you miss?" },
+          "text": { "hu": "Ketten közületek elmesélték nekünk, mi tölti ki a napjaitokat, és mi hiányzik itt nektek.", "en": "Two of you told us what fills your days here, and what you miss." },
+          "points": [
+            { "hu": "Mást-mást meséltetek, de mindketten ugyanazt kértétek:", "en": "You each told us different things, but you both asked for the same:" },
+            { "hu": "több közös programot,", "en": "more things to do together," },
+            { "hu": "például közös zenélést és kézműveskedést.", "en": "for example making music and crafts." } ],
+          "cite": { "hu": "Beszélgetések, 2026. október (Sandrini A. L., Szekeres D., Rosenberg-Hagymásy L.). A neveket nem írjuk ki. Köszönjük, hogy elmondtátok!", "en": "Conversations, October 2026 (Sandrini A. L., Szekeres D., Rosenberg-Hagymásy L.). We're not printing names. Thank you for telling us!" },
+          "images": [
+            { "src": "presentation/interview_planters.jpg", "alt": { "hu": "Raklapágyások a festett tűzfal előtt", "en": "Pallet planters by the painted firewall" } },
+            { "src": "presentation/interview_leanto.jpg", "alt": { "hu": "Kerekesszékek és székek a fészer mellett", "en": "Wheelchairs and chairs by the lean-to" } } ] },
+        { "kind": "media", "layout": "split",
+          "_src": "Placemaking.pdf, slides 'Motiváció' and 'Koncepció'",
+          "eyebrow": { "hu": "Amit szeretnénk", "en": "What we want" },
+          "title": { "hu": "Közös udvar, közösen építve", "en": "A shared yard, built together" },
+          "text": { "hu": "Olyan udvart szeretnénk, amely arra épül, amit tőletek hallottunk.", "en": "We want a yard built on what you told us." },
+          "points": [
+            { "hu": "Veletek és a szomszédokkal együtt újítjuk meg az udvart: egy közös hely, sokféle dologra.", "en": "We renew the yard with you and the neighbours: one shared place, for many things." },
+            { "hu": "A közös munka összehoz minket, és beszélgetést nyit a ház és az utca között.", "en": "Working together brings us closer, and opens a conversation between the house and the street." },
+            { "hu": "A nyitott workshopokon ti döntötök és ti alakítjátok az udvart. Megismeritek a szomszédokat, és ők is megismernek titeket.", "en": "In the open workshops you decide and you shape the yard. You get to know the neighbours, and they get to know you." } ],
+          "images": [
+            { "src": "presentation/concept_desk.jpg", "alt": { "hu": "Munkaasztal: alaprajz, interjúlapok, vázlatok", "en": "Work table: floor plan, interview sheets, sketches" } } ] }
+      ]
+    },
+    {
+      "id": "today",
+      "label": { "hu": "Az udvar ma", "en": "The yard today" },
+      "minutes": 0.5,
+      "slides": [
+        { "stop": "today",
+          "eyebrow": { "hu": "Felmérés · 2026. október", "en": "Survey · October 2026" },
+          "title": { "hu": "Az udvar ma", "en": "The yard today" },
+          "notes": { "hu": "Nyolc workshop, mindegyik az udvar egy részét építi meg, nagyrészt abból, ami már itt van. Hatot mutatunk meg közülük.", "en": "Eight workshops, each building one part of the yard, mostly from what is already here. We show six of them." } },
+        { "kind": "steps",
+          "_src": "Placemaking.pdf, slide 'Timeline': make space, built together, afterlife",
+          "eyebrow": { "hu": "Idővonal", "en": "Timeline" },
+          "title": { "hu": "Három lépésben", "en": "In three steps" },
+          "steps": [
+            { "title": { "hu": "Helyet csinálni", "en": "Make space" },
+              "text": { "hu": "Rendet rakunk, hogy legyen hol dolgozni.", "en": "We clear up, so there's room to work." },
+              "items": [ { "hu": "1. Átrendezés, új tároló", "en": "1. Reorganisation, a new store" }, { "hu": "2. Műhelytér", "en": "2. Workshop space" } ] },
+            { "title": { "hu": "Közösen építve", "en": "Built together" },
+              "text": { "hu": "Nyitott workshopok: ti, mi és a szomszédok, együtt.", "en": "Open workshops: you, us and the neighbours, together." },
+              "items": [ { "hu": "3–4. Festmények, plakátok", "en": "3–4. Murals, posters" }, { "hu": "5. Gurulós kert", "en": "5. Mobile garden" }, { "hu": "6–8. Mozi, tűzrakó, fedett tér", "en": "6–8. Cinema, fire circle, covered space" } ] },
+            { "title": { "hu": "Utóélet", "en": "Afterlife" },
+              "text": { "hu": "Az udvar nem kész termék, hanem lehetőség, hogy tovább alakítsuk.", "en": "The yard is not a finished product but a chance to keep shaping it." },
+              "items": [ { "hu": "Megnyitó", "en": "Opening" }, { "hu": "Filmestek, zene, közös főzés", "en": "Film nights, music, cooking together" }, { "hu": "Évente új festés, új plakátok", "en": "Repainted and new posters every year" } ] } ] }
+      ]
+    },
+    {
+      "id": "w12",
+      "label": { "hu": "Raktár és műhely", "en": "Store and workshop" },
+      "minutes": 0.75,
+      "slides": [
+        { "stop": "w1-build", "tour": 0,
+          "title": { "hu": "Lebontjuk a régi fészert", "en": "Taking down the old shed" },
+          "notes": { "hu": "A barna fészer lemezei és acéloszlopai nem vesznek el: belőlük épül az új tároló.", "en": "The brown shed's sheets and steel posts aren't wasted: the new store is built from them." } },
+        { "stop": "w1",
+          "title": { "hu": "Tároló az utcai fal mellett", "en": "A store by the street wall" },
+          "notes": { "hu": "4,7 × 4,5 m-es acélvázas raktár, két zárható résszel. Így felszabadul a fészer.", "en": "A 4.7 × 4.5 m steel-framed store with two lockable halves. That frees up the lean-to." } },
+        { "stop": "w2",
+          "title": { "hu": "Műhelytér a fészer alatt", "en": "A workshop space under the lean-to" },
+          "notes": { "hu": "Szerszámfal, két 2 × 2 m-es munkaasztal, raktár. Innen készül minden későbbi workshop bútora.", "en": "A tool wall, two 2 × 2 m work tables, a store. Every later workshop's furniture is made here." } }
+      ]
+    },
+    {
+      "id": "w34",
+      "label": { "hu": "Festés és plakátok", "en": "Murals and posters" },
+      "minutes": 1,
+      "slides": [
+        { "stop": "w3-build", "tour": 0,
+          "eyebrow": { "hu": "3–4. workshop · folyamatban", "en": "Workshops 3–4 · in progress" },
+          "title": { "hu": "Festmény a bejáratoknál", "en": "Murals at the entrances" },
+          "notes": { "hu": "A kapu mögötti aszfaltra és a rámpa előtti betonra közösen festünk: útfesték, nyeles henger, kréta és zsinór.", "en": "We paint the asphalt inside the gate and the concrete in front of the ramp together: road paint, rollers on poles, chalk and string." } },
+        { "kind": "popup", "stop": "w3",
+          "_src": "Placemaking.pdf, slide 'Workshop results': the poster workshop drawn onto a site photo. The model behind: the machinery house before the posters",
+          "view": { "az": 82, "el": 12, "dist": 16.5, "focus": [11.5, 0.8] }, "xray": "posters",
+          "eyebrow": { "hu": "Koncepció · 4. workshop", "en": "Concept · workshop 4" },
+          "title": { "hu": "Minták a gépház üvegén", "en": "Patterns on the machinery house glass" },
+          "text": { "hu": "Ezt festhetjük a plakátworkshopon: sárga minták végig a gépház ablakain. Csirizzel ragasztjuk fel, vízzel lemosható, így évszakonként újrafesthetjük.", "en": "What we could paint in the poster workshop: yellow patterns all along the machinery house windows. We paste them up with flour paste; it washes off, so we can repaint every season." },
+          "cite": { "hu": "A kézműveskedés, amit kértetek, az udvar közepén.", "en": "The crafts you asked for, in the middle of the yard." },
+          "images": [ { "src": "presentation/concept_posters.jpg", "alt": { "hu": "A gépház fotója sárga mintákkal az ablakokon (vizualizáció)", "en": "Photo of the machinery house with yellow patterns on its windows (visualisation)" } } ] },
+        { "stop": "w4-build", "tour": 0,
+          "eyebrow": { "hu": "3–4. workshop · folyamatban", "en": "Workshops 3–4 · in progress" },
+          "title": { "hu": "A minta darabjait színezzük", "en": "Colouring in pieces of the pattern" },
+          "notes": { "hu": "A munkaasztalok kikerülnek a tűzrakó mellé: a minta darabjait teljes méretben kiszínezzük, aztán kivágjuk.", "en": "The work tables come out by the fire pit: we colour in the pieces of the pattern full size, then cut them out." } },
+        { "stop": "w4",
+          "eyebrow": { "hu": "3–4. workshop", "en": "Workshops 3–4" },
+          "title": { "hu": "A minta a gépház ablakain", "en": "The pattern on the machinery house windows" },
+          "notes": { "hu": "A kivágott darabokat csirizzel ragasztjuk az üvegre: a minta végigfut a gépház ablakain, az udvar közepén.", "en": "We paste the cut-out pieces onto the glass with flour paste: the pattern runs all along the machinery house windows, in the middle of the yard." } }
+      ]
+    },
+    {
+      "id": "w5",
+      "label": { "hu": "Gurulós kert", "en": "Mobile garden" },
+      "minutes": 0.5,
+      "slides": [
+        { "stop": "w5-build", "tour": 1,
+          "title": { "hu": "Kerekeken guruló kert", "en": "A garden on wheels" },
+          "notes": { "hu": "A raklapágyások görgőket kapnak, és raklapemelővel gurulnak a helyükre: a kert követheti a napot, vagy helyet adhat egy eseménynek.", "en": "The pallet beds get castors and roll into place on pallet trucks: the garden can follow the sun, or make room for an event." } },
+        { "stop": "w5",
+          "title": { "hu": "Csendes zugok a fal mentén", "en": "Quiet nooks along the wall" },
+          "notes": { "hu": "Két ülőzug az ágyások között, paddal és guruló asztallal: hely, ahol egyedül is meg lehet pihenni.", "en": "Two seating nooks between the beds, with a bench and a rolling table: a place to rest alone among the plants." } }
+      ]
+    },
+    {
+      "id": "w6",
+      "label": { "hu": "Kertmozi", "en": "Garden cinema" },
+      "minutes": 0.75,
+      "slides": [
+        { "stop": "w6-build", "tour": 1,
+          "title": { "hu": "Bútor rekeszből és raklapból", "en": "Furniture from crates and pallets" },
+          "notes": { "hu": "A műhelytér gyártósorként működik: raklapot bontunk, rekeszpadot csavarozunk, és kihordjuk a moziba.", "en": "The workshop space works as a production line: pallets taken apart, crate benches screwed together and carried out to the cinema." } },
+        { "stop": "w6",
+          "title": { "hu": "Filmest a fehér fal előtt", "en": "Film night in front of the white wall" },
+          "notes": { "hu": "Három íves sor, minden ülésnek háttámlája van. Más estéken színpad felolvasásnak, zenének.", "en": "Three curved rows, every seat with a backrest. On other evenings, a stage for readings and music." },
+          "cite": { "hu": "Hely a közös zenélésnek is, ahogy kértétek.", "en": "Room for making music together too, as you asked." } }
+      ]
+    },
+    {
+      "id": "open",
+      "label": { "hu": "Megnyitó", "en": "Opening" },
+      "minutes": 1,
+      "slides": [
+        { "stop": "open",
+          "_walk": "POV: in through the street gate over the mural, past the poster exhibition and the garden nooks, between the mobile beds, a pause at the concert, and into the fire circle. path = waypoints {at [s, n], look [s, n, height] (else ahead), hold s}",
+          "walk": { "speed": 1.15, "path": [
+            { "at": [22.8, 11.4] },
+            { "at": [20.2, 11.0], "look": [19.6, 8.3] },
+            { "at": [17.0, 8.6], "look": [15.6, 0.9] },
+            { "at": [12.0, 7.4] },
+            { "at": [7.0, 6.9], "look": [7.57, 12.8] },
+            { "at": [3.5, 6.5], "look": [2.37, 12.9] },
+            { "at": [0.5, 6.3] },
+            { "at": [-3.2, 6.3], "look": [-4.9, 12.0], "hold": 4 },
+            { "at": [-2.0, 5.4], "look": [-0.57, 1.93, 0.9] } ] },
+          "eyebrow": { "hu": "Megnyitó", "en": "Opening" },
+          "title": { "hu": "Séta a megnyitón", "en": "A walk through the opening" },
+          "notes": { "hu": "Be a kapun, végig az udvaron: mindenhol ti vagytok, akik építettétek.", "en": "In through the gate and across the yard: everywhere, you who built it." } },
+        { "stop": "open", "xray": "campfire",
+          "view": { "az": 150, "el": 34, "dist": 11.5, "focus": [-0.2, 1.8] },
+          "eyebrow": { "hu": "Megnyitó", "en": "Opening" },
+          "title": { "hu": "Bográcsozás együtt", "en": "Cooking together" },
+          "notes": { "hu": "A megnyitó egy ismerős pillanattal zárul: a tűz fölött fő a leves, és együtt esszük meg, ahogy a szállón már korábban is.", "en": "The opening ends on a familiar moment: soup cooking over the fire, eaten together, as the shelter has done before." },
+          "cite": { "hu": "Közös program, ahogy kértétek.", "en": "Something to do together, as you asked." } },
+        { "kind": "title", "stop": "open", "spin": true, "canopy": 0.35, "view": { "az": 10, "el": 78, "dist": 42, "focus": [4.6, 4.5] },
+          "eyebrow": { "hu": "Foglalj helyet :)", "en": "Foglalj helyet :)" },
+          "title": { "hu": "Köszönjük!", "en": "Thank you" },
+          "notes": { "hu": "A teljes modell és mind a nyolc workshop megtalálható az oldalon, az Idővonal fülön.", "en": "The full model and all eight workshops are on this site, in the Timeline tab." },
+          "byline": { "hu": "Sandrini Anna Lena, Szekeres Dávid, Rosenberg-Hagymásy Lilla", "en": "Sandrini Anna Lena, Szekeres Dávid, Rosenberg-Hagymásy Lilla" } }
+      ]
+    }
+  ]
+}

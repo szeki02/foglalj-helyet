@@ -1,0 +1,2 @@
+objects: white 4
+bay number surfaces: 3

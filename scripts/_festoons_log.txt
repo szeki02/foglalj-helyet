@@ -1,0 +1,1 @@
+strings: 7, objects: open bulb 2, open wire 4, w6 bulb 3, w6 pole 4, w6 wire 6, w7 bulb 1, w7 pole 2, w7 wire 2, w8 bulb 1, w8 wire 2

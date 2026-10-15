@@ -1,0 +1,4 @@
+renamed: none
+fire circle pieces away for W6: 0; copies by the posters: mc_blue 2, mc_board 21, mc_green 1, mc_ochre 3, mc_red 2, mc_table 12, mc_teal 4, mc_yellow 2
+panes: 07 s 7.03-8.01, 08 s 8.19-9.17, 10 s 10.50-11.48, 11 s 11.66-12.64, 12 s 12.82-13.79, 13 s 13.97-14.95, 14 s 15.13-16.11, 15 s 16.29-17.27, 16 s 17.45-18.34
+posters: 21

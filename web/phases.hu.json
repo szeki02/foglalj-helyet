@@ -1,0 +1,352 @@
+{
+ "_note": "Hungarian texts for phases.json (the default language of the site). Same structure as phases.json, only the shown texts: the viewer lays these over the English ones and swaps them back for the English switch. Phases are keyed by id; zone 'more' areas and midway lists follow the order in phases.json.",
+ "project": {
+  "title": "Foglalj helyet :)",
+  "subtitle": "Egy udvar, amit együtt építünk, workshopokon",
+  "status": "Tervezet · az időpontok később"
+ },
+ "costing": {
+  "basis": "Becslés a szokásos budapesti barkácsáruházi és használt árak alapján; vásárlás előtt ellenőrizni kell. Minimum = a szükséges készpénz, ha minden, ami visszanyerhető, adományból jöhet vagy használtan megvehető, úgy is érkezik. A workshopnapok étkezése nincs benne."
+ },
+ "zones": {
+  "reorg":    { "label": "Fészer bontása", "more": [ { "label": "Tároló" }, { "label": "Parkolóhelyek" } ] },
+  "workshop": { "label": "Műhely", "more": [ { "label": "Szerszám- és anyagraktár" }, { "label": "„B” munkaasztal" } ] },
+  "garden":   { "label": "Kerti zugok", "more": [ { "label": "Gurulós ágyások" } ] },
+  "cinema":   { "label": "Kertmozi" },
+  "campfire": { "label": "Tűzrakó kör" },
+  "posters":  { "label": "Ablakplakátok" },
+  "mural":    { "label": "Aszfaltfestmény", "more": [ { "label": "Betonfestmény" } ] },
+  "shelter":  { "label": "Fedett-nyitott tér" }
+ },
+ "phases": {
+  "today": {
+   "title": "Kiinduló állapot",
+   "when": "Felmérés · 2026. október",
+   "text": "Az udvar a workshopok előtt, fényképekből felmérve: aszfalt, üvegezett pavilon, fűzkert, raklapágyások, téglából rakott tűzrakóhely, nyeregtetős beálló és a fészerek a nyugati fal mentén."
+  },
+  "w1": {
+   "title": "Átrendezés",
+   "when": "1. workshop",
+   "text": "Lebontjuk a barna fészert a nagy fészer mellett, és az utcai fal melletti sarokban saját tárolót építünk, a fészer hullámlemez tetejét újrahasznosítva. Ha minden oda kerül, a nagy fészer kiürül, és fedett műhellyé válhat, ahonnan a későbbi workshopok dolgoznak. A nyugati fal mentén három ferde parkolóhelyet festünk fel, a kapu felé nyitva, hogy az autók egyenesen beállhassanak (az 5. workshoptól használhatók, amikor az ágyások elgurulnak).",
+   "build": [
+    "Acélvázas tároló, 4,7 × 4,5 m, 2,6–3,0 m magas",
+    "A régi fészer hullámlemez teteje újra felrakva",
+    "Két zárható rekesz polcokkal",
+    "3 ferde parkolóhely (60°) a nyugati fal mentén, az 5. workshoptól használatban"
+   ],
+   "skills": [
+    "Bontás és az anyagok megmentése",
+    "Acélváz összecsavarozása",
+    "Hullámlemez fektetése",
+    "Kézi és gépi szerszámok biztonságos használata"
+   ],
+   "cost": {
+    "materials": [
+     ["Acélszelvény ≈ 96 m (≈ 425 kg)", "a fészer oszlopai + használt, a kereskedő vágja méretre"],
+     ["Hullámlemez: 23 m² tető + 11 m² homlokzat", "a régi fészer teteje + 7 m² vásárolt"],
+     ["OSB 18 mm ≈ 36 m²", "a fészer OSB-je + 5 tábla vásárolt"],
+     ["Zsanérok, lakatpántok, lakatok, csavarok, alapozó", "vásárolt"],
+     ["6 alátétkő betonlemez helyett", "visszanyert járólapok"],
+     ["Útburkolati festék: 5 l fehér, henger, maszkolószalag, kicsapózsinór", "vásárolt"]
+    ],
+    "note": "Acél helyett favázzal ez nagyjából 150 000 Ft-ra jönne ki."
+   },
+   "midway": {
+    "title": "Bontás és építés",
+    "text": "Az első workshop felénél. A barna fészer teteje már lent van, a lemezeket a pavilon mentén hordják az utcai sarokba, ahol a tároló acélváza már áll, és az első régi lemezek új tetőként kerülnek vissza rá.",
+    "who": [
+     "A fészernél: egyikük a létrán bontja a homlokgerendát, a másik tartja a létrát",
+     "Egy ember rakja halomba a régi tetőlemezeket",
+     "Ketten hordják a lemezeket a pavilon mentén",
+     "A tárolónál: egy koordinátor csavarozza a vázat, egy ember a létrán rögzíti a tetőlemezeket, egy pedig adogatja őket",
+     "Ketten jelölik ki és festik a parkolóhelyeket"
+    ]
+   }
+  },
+  "w2": {
+   "title": "Műhelytér",
+   "when": "2. workshop",
+   "text": "A kiürült nagy fészert olcsó, közös műhellyé alakítjuk, mindenkinek: egy nagy munkaasztal a tető alatt, egy másik kint az udvaron, kéziszerszámfal, bakok a lapok vágásához, és a hullámlemez paravánok mögött zárható szerszám- és anyagraktár. Minden későbbi workshop innen épül.",
+   "build": [
+    "Zárható raktár fa konzolokkal, lapállvánnyal és polcokkal",
+    "Kéziszerszámfal, szorítósín és gérvágó láda",
+    "Biztonsági pont: elsősegély, poroltó, kesztyű, védőszemüveg, porvédő maszk"
+   ],
+   "skills": [
+    "A kéziszerszámok biztonságos használata",
+    "Mérés, jelölés és fűrészelés kézzel",
+    "Egy közös tér rendben tartása"
+   ],
+   "cost": {
+    "materials": [
+     ["Kéziszerszámkészlet ≈ 40 darab", "fele adomány vagy használt"],
+     ["2 asztallap, 2 × 2 m", "rétegelt lemez / OSB vagy kidobott ajtók"],
+     ["Bakok, fűrészbakok, állványok", "raklapfa és hulladékanyag"],
+     ["Zárható szekrény + polcrendszer", "használt"],
+     ["Poroltó, elsősegély, kesztyű, szemüveg, maszk", "először a szálló saját készlete, aztán vásárolt"]
+    ],
+    "note": "Itt a szerszámgyűjtés hozza a legtöbb megtakarítást."
+   },
+   "midway": {
+    "title": "A műhely berendezése",
+    "text": "A második workshop felénél. A raktár ajtaja már a helyén, és mindkét munkaasztal áll, az egyik a tető alatt, a másik kint az udvaron. Telik a szerszámfal, a raktárban épülnek a polcok, és az első lapokat már a bakokhoz viszik méretre vágni.",
+    "who": [
+     "Ketten OSB-lapokat visznek a bakokhoz",
+     "Egy ember lapot jelöl ki az udvari asztalon",
+     "Ketten a szerszámfalnál: egyikük akasztja, a másik adogatja a szerszámokat",
+     "Egy ember lapot jelöl ki a tető alatti asztalon",
+     "A raktárban egy koordinátor szereli össze a polcokat"
+    ]
+   }
+  },
+  "w3": {
+   "title": "Udvarfestmények",
+   "when": "3. workshop",
+   "text": "Két közösen tervezett festményt festünk a földre. Az utcai kapu mögötti aszfaltra tizenkét 1,4 m-es mezőből álló rács kerül: minden mező egy alapszín, rajta egy forma, negyedkör, félkör vagy háromszög, terrakotta, okker, mélyzöld, palaszürke, antracit és törtfehér színekben. Az ívek és átlók mezőről mezőre folytatódnak, így a kapu egyetlen kompozícióra nyílik, nem képek sorára. Az udvar másik végén, a megemelt pódium előtti betonfelületen egy kisebb készül ugyanezekkel a színekkel: hat 1,5 m-es mező, négyen átível egy okker kör, kettőn egy fehér csúcs mutat a rámpa felé: padló mindannak, ami a pódium előtt történik. Útburkolati festék: a kapunál az autók átgurulnak rajta a parkolóhelyek felé, és mindkettő egy-két évente újrafesthető vagy újratervezhető.",
+   "build": [
+    "Aszfaltfestmény a kapu mögött, 4,3 × 5,9 m: 12 darab 1,4 m-es mező",
+    "Betonfestmény a pódium előtt, 3,0 × 4,5 m: 6 darab 1,5 m-es mező",
+    "Vízbázisú, csúszásmentes útburkolati festék hat színben",
+    "Előbb papíron megtervezve, aztán krétával életnagyságban kirajzolva"
+   ],
+   "skills": [
+    "Tervezés rácsra",
+    "Kitűzés zsinórral és krétával",
+    "Élek kihúzása és nagy felületek hengerelése"
+   ],
+   "hub": "nyeles hengerek, ecsetek és festőtálcák a készletéből; a festék a raktárában vár",
+   "cost": {
+    "materials": [
+     ["Útburkolati festék 7 × 2,5 l: terrakotta, okker ×2, mélyzöld, palaszürke ×2, antracit", "vásárolt"],
+     ["Törtfehér: a parkolóvonalak fehérje, színezve", "az 1. workshopról maradt"],
+     ["Betonalapozó a pódium előtti felületre, 5 l", "vásárolt"],
+     ["Maszkolószalag, kicsapózsinór, zsinór és cövekek, léc körzőnek", "vásárolt / hulladékanyag"],
+     ["Nyeles hengerek, ecsetek az élekhez, tálcák", "a műhelytér készletéből, néhány vásárolt"],
+     ["Kemény seprű és zsíroldó az aszfalt és a beton tisztításához", "vásárolt"]
+    ],
+    "note": "Összesen 39 m² festés, 25 az aszfalton és 14 a betonon. Az útfesték egy-két szezont bír: az újrafestés évente visszatérő esemény lehet."
+   },
+   "midway": {
+    "title": "Hengerelt színek",
+    "text": "A harmadik workshop felénél. A pódium előtti kis betonfestmény készült el elsőként, a módszer próbájaként, és már kész: most húzzák le a szalagot a széleiről. A kapunál az aszfalt felsöpörve, a rács krétával kirajzolva teljes méretben. A nyugati faltól soronként hengerelik fel az alapszíneket, két sor már kész; mögöttük ecsettel húzzák ki a formákat a szalag mentén és hengerrel töltik ki, közben a következő sort leragasztják.",
+    "who": [
+     "Ketten nyeles hengerrel festik a következő sor alapszíneit",
+     "Egy ember ecsettel húz ki egy formát",
+     "Egy ember leragasztja az utolsó sort",
+     "Egy koordinátor a kapunál, kezében a papírra rajzolt tervvel",
+     "Egy ember lehúzza a szalagot a kész betonfestményről"
+    ]
+   }
+  },
+  "w4": {
+   "title": "Ablakplakátok",
+   "when": "4. workshop",
+   "text": "A koncepciónk sárga mintáját festjük fel a gépház ablakaira, végig az udvar felőli oldalon. A mintát teljes méretben papírra rajzoljuk, darabokra vágjuk, és a munkaasztaloknál mindenki kiszínez egy-egy darabot; a kész darabokat kivágjuk és felragasztjuk az üvegre, a felső és az alsó ablakokra is. A lisztes csiriz vízzel lemosható az üvegről, így az ablakok minden évszakra vagy eseményre újragondolhatók.",
+   "build": [
+    "Egy sárga minta a gépház mind a 15 ablakán, fent és lent",
+    "Teljes méretben papírra rajzolva, darabonként kiszínezve az asztaloknál, kivágva",
+    "Lisztes csiriz: vízzel lejön, így a minta cserélhető"
+   ],
+   "skills": [
+    "Minta rajzolása teljes méretben",
+    "Festés és kivágás",
+    "Ragasztás üvegre"
+   ],
+   "hub": "a munkaasztalait kivisszük a minta kiszínezéséhez; ecset, festék és csiriz a raktárából",
+   "cost": {
+    "materials": [
+     ["Plakátpapír: 2 tekercs 90 g-os rajzpapír, 1,5 × 10 m", "vásárolt"],
+     ["Plakát- és akrilfesték, ecsetek, hengerek, sablonkarton", "vásárolt / az aszfaltfestményről (3. workshop) maradt"],
+     ["Lisztes csiriz (liszt és víz), szivacsok, gumibetétes lehúzó", "vásárolt"],
+     ["Néhány nagy nyomat a fénymásolóban (nem kötelező)", "vásárolt"]
+    ],
+    "note": "Az üveg külső oldalára ragasztjuk, így semmit nem kell a keretekbe fúrni vagy rájuk ragasztani."
+   },
+   "midway": {
+    "title": "Festés és ragasztás",
+    "text": "A negyedik workshop felénél. Két munkaasztal áll kint az aszfalton a téglából rakott tűzrakó mellett, ahol a minta darabjait sárgára színezzük és kivágjuk. A kész darabokat az ágyás végét megkerülve, a járdán visszük a gépházhoz, és északról kezdve felragasztjuk őket az ablakokra. Az ablakok több mint fele kész.",
+    "who": [
+     "Négyen színezik a minta darabjait az asztaloknál",
+     "Egy ember visz egy kivágott darabot az ablakokhoz",
+     "Ketten ragasztják a darabokat az üvegre",
+     "Egy koordinátor a járdán"
+    ]
+   }
+  },
+  "w5": {
+   "title": "Mozgó kert",
+   "when": "5. workshop",
+   "text": "Kerekeket teszünk a raklapágyások alá, hogy a kert követhesse a napot, egy esemény köré gyűlhessen, vagy helyet adhasson egy szállításnak. Két kézi raklapemelő emeli meg az ágyásokat, amíg a görgőket a raklaptuskók alá csúsztatjuk és felcsavarozzuk. A fal mentén az ágyásokat két csendes zuggá gurítjuk szét, ahol egyedül lehet ülni a növények között: minden ágyás végére raklappad kerül, közéjük gurulós asztal. Mivel az ágyások elkerülnek a nyugati faltól, az 1. workshopon felfestett három parkolóhely használatba kerül.",
+   "build": [
+    "Alacsony, nagy teherbírású görgők minden ágyás alatt",
+    "Két zug az ágyásokhoz csavarozott raklappadokkal",
+    "Két gurulós raklapasztal",
+    "A három parkolóhely felszabadul az autóknak"
+   ],
+   "skills": [
+    "Biztonságos emelés kézi raklapemelővel",
+    "Csavarozás fába",
+    "Nehéz terhek mozgatása csapatban"
+   ],
+   "hub": "a zugok padjai és a gurulós asztalok az asztalainál készülnek; fúró és villáskulcs a szerszámfalról a görgőkhöz",
+   "cost": {
+    "materials": [
+     ["≈ 18 további EUR-raklap", "egyutas / sérült raklapok, ingyen"],
+     ["40 alacsony görgő, Ø75", "vásárolt (≈ 2500 Ft darabja) vagy adomány"],
+     ["M10 hatlapfejű facsavarok, összekötő lemezek", "vásárolt"],
+     ["Komposzt 2 új ágyásba, 4 ülőpárna", "kerületi zöldhulladék; adományozott szivacs + anyag"],
+     ["2 kézi raklapemelő egy napra", "kölcsön"]
+    ],
+    "note": "Takarékos számítás: ágyásonként 4 görgő, az asztalok alá egy sem (a modellben 60 látszik)."
+   },
+   "midway": {
+    "title": "Gördülő kert",
+    "text": "Az ötödik workshop felénél. A fal menti ágyások már görgőkön állnak az új helyükön, köztük padok és asztalok, egy ágyás kint áll az udvaron. A régi helyeken két kézi raklapemelővel emelnek meg egy ágyást, a következő alá görgőket szerelnek, egy harmadikat pedig feljebb gurítanak az udvaron.",
+    "who": [
+     "Ketten pumpálják a raklapemelőket az egyik régi ágyás alatt",
+     "Egy ember görgőket szerel a következő ágyás alá",
+     "Ketten gurítanak egy ágyást feljebb az udvaron",
+     "Egy koordinátor irányítja a helyére"
+    ]
+   }
+  },
+  "w6": {
+   "title": "Kertmozi",
+   "when": "6. workshop",
+   "text": "Tejesrekeszekből és EUR-raklapokból kerti bútort építünk, és szabadtéri moziként rendezzük el a nyugati fal fehérre festett része előtt: filmestek, más estéken színpad felolvasásnak, zenének, előadásnak. Minden ülésnek van háttámlája. Három íves sor: elöl rekeszpadok és rekeszszékek, középen raklappadok, hátul rekeszpadok raklapdobogón, mellettük a projektor egy rekesztornyon. A munkaasztalok, a bakok és a szerszámok visszakerülnek a raktárba, hogy legyen hely.",
+   "build": [
+    "4,6 × 2,9 m-es vászonnak fehérre festett fal",
+    "3 raklappad (az ülőraklapok 0,45 m mélyre vágva) háttámlával, 10 raklapos dobogó",
+    "6 rekeszpad és 2 rekeszszék raklapdeszka léces háttámlával, 2 rekesz kisasztal",
+    "Projektortorony és hangfalállványok rekeszekből",
+    "A fal előtt 2,4 m-es sáv szabadon hagyva színpadnak"
+   ],
+   "skills": [
+    "Raklapok szétszedése és összerakása",
+    "Rekeszek bútorrá kötözése és csavarozása",
+    "Párnahuzatok varrása",
+    "Fal előkészítése és festése",
+    "Vetítés vagy előadás lebonyolítása"
+   ],
+   "hub": "a gyártósor: az „A” asztal az összeszereléshez, a bakokon vágott raklapok, ott csavarozzák össze az összes rekeszpadot",
+   "cost": {
+    "materials": [
+     ["21 EUR-raklap; a padülések a második tuskósor után levágva, a maradékból és 2 további raklapból lesznek a háttámla deszkái", "egyutas / sérült raklapok, ingyen"],
+     ["38 tej- / üvegrekesz", "selejtezett rekeszek tejüzemtől vagy sörfőzdétől kérve, vagy használt"],
+     ["Falalapozó + fehér homlokzatfesték ≈ 13 m² × 2 réteg, henger, ecset", "vásárolt"],
+     ["Kábelkötegelők, csavarok, 14 párna", "vásárolt; adományozott szivacs + anyag, helyben varrva"],
+     ["Projektor, hangfal, kültéri hosszabbító", "kölcsön (egy hosszabbító vásárolt)"],
+     ["3 LED-es égősor a mozi körül, ≈ 18 m, 33 égő; 2 db 32 mm-es acéloszlop homokkal töltött napernyőtalpban; kampók, kötegelők", "vásárolt (kültéri, IP44); az oszlopok bontott csőből és használt talpakból"]
+    ],
+    "note": "A forgalomban lévő rekeszek a tejüzemé vagy a sörfőzdéé: selejtezetteket kérjünk, ne vigyük el őket a boltokból."
+   },
+   "midway": {
+    "title": "Festés, építés, kihordás",
+    "text": "A hatodik workshop felénél. A fal létráról elérhető magasságig már fehér; az egyik festő a fellépős létráról a felső szélen dolgozik, a másik nyeles hengerrel. A bútorok a műhelytérben készülnek: a „B” asztal került elsőként a raktárba, hogy felszabaduljon a mozi helye, a fészer alatti „A” asztal az összeszerelő asztal, a raklapokat deszkának szedik szét és a bakokon vágják, minden kész rekeszpadot kivisznek a moziba. A dobogó, a hátsó sor, a projektortorony és a raklappadok már a helyükön. A nap végén az „A” asztal, a bakok és a szerszámok visszakerülnek a raktárba.",
+    "who": [
+     "Ketten festik a falat: egyikük a létráról, a másik nyeles hengerrel",
+     "Ketten az „A” asztalnál egy rekeszpadot csavaroznak össze",
+     "Egy ember deszkának szed szét egy raklapot, egy másik a bakokon vágja",
+     "Ketten visznek ki egy kész padot az első sorba",
+     "Egy ember párnákat tesz a hátsó sorra",
+     "Egy koordinátor fogadja elöl a padokat"
+    ]
+   }
+  },
+  "w7": {
+   "title": "Tűzrakó kör",
+   "when": "7. workshop",
+   "text": "A moziéhoz hasonló tejesrekesz székek és kis olajozott raklapfa asztalkák patkó alakban az udvar téglából rakott tűzrakója körül, a pavilon felé nyitva. A tűz fölött háromlábon bogrács lóg: a nap közösen főzött levessel zárul, a kör pedig olyan hely marad, ahol valaki mesél, a többiek hallgatják. Előbb a mozi bútorait a nyugati fal mentén, a vászon alatt egymásra rakjuk a következő filmestére, és a kölcsönkért raklapemelő visszamegy.",
+   "build": [
+    "7 tejesrekesz szék: fejjel lefelé fordított rekesz, párna, léces raklapdeszka háttámla (ülésmagasság 0,34 m)",
+    "3 kis asztalka; a régi fémállvány a tányéroké",
+    "Háromláb és 25 literes bogrács a tűzrakó fölött",
+    "Farakás és homokos vödör"
+   ],
+   "skills": [
+    "Rekeszekből és raklapdeszkákból szék",
+    "Tűzgyújtás és tűzbiztonság",
+    "Főzés sok embernek"
+   ],
+   "hub": "ismét a gyártósor: a rekeszszékek és asztalkák a munkaasztalon készülnek, a deszkákat a bakokon vágják",
+   "cost": {
+    "materials": [
+     ["7 tejesrekesz a székekhez", "selejtezett vagy használt rekeszek"],
+     ["≈ 3 raklap szétszedve a háttámlákhoz és az asztalkákhoz, 7 párna", "ingyen; adományozott szivacs + anyag"],
+     ["Kültéri faolaj 2,5 l, csavarok", "vásárolt"],
+     ["Háromláb és 25 literes bogrács", "használt"],
+     ["Homokos vödör, tűzoltó takaró", "vásárolt"],
+     ["LED-es égősor ≈ 6 m, 11 égő, a pavilontól a tűzrakón túli acéloszlopig (homokkal töltött talpban)", "vásárolt; az oszlop bontott csőből"],
+     ["Leves: zöldség, kenyér", "adomány / élelmiszerbank, nincs beszámítva"]
+    ],
+    "note": "A tűz maradjon kicsi, a láng alacsony: kb. 3 méterrel a tűzrakó fölött egy fa koronája ér be."
+   },
+   "midway": {
+    "title": "Székkészítés",
+    "text": "A hetedik workshop felénél, a moziéhoz hasonlóan. A mozi bútorai a nyugati fal mentén, a vászon alatt egymásra rakva, a műhelytér pedig újra gyártósor: a fészer alatt bakokon álló munkaasztalnál a tejesrekeszeket fejre fordítják és léces háttámlát csavaroznak rájuk, a raklapokat szétszedik ezekhez a deszkákhoz és egy második bakpáron vágják, minden kész széket átvisznek a tűzrakóhoz, ahol egy koordinátor beállítja a körbe. A székek fele már áll; valaki rakja a tűzifát estére.",
+    "who": [
+     "Ketten léces háttámlát csavaroznak egy rekeszre a munkaasztalnál",
+     "Egy ember deszkának szed szét egy raklapot",
+     "Egy ember deszkákat vág a bakokon",
+     "Egy ember egy kész széket visz a tűzrakó körhöz",
+     "Egy koordinátor beállítja a székeket a körbe",
+     "Egy ember tűzifát rak"
+    ]
+   }
+  },
+  "w8": {
+   "title": "Fedett-nyitott tér",
+   "when": "8. workshop",
+   "text": "A nyeregtetős beálló alatt egy hely, ahol együtt lehet ülni, enni és beszélgetni, eső elől is. Semmit sem kell hozzá építeni: a raktárból előkerül egy sörpad-garnitúra, egy összecsukható asztal két paddal, a tűzrakó kör rekeszszékeit és asztalkáit pedig áthozzuk, így a nyugati végen alacsony sarok lesz, az új faliújság mellett két ülőhely. Minden összecsukható vagy elvihető, így visszamehet a raktárba, vagy egy estére a tűzrakóhoz.",
+   "build": [
+    "Sörpad-garnitúra a raktárból: 220 × 50 cm-es összecsukható asztal 76 cm magasan, két 220 × 25 cm-es pad 47 cm magasan",
+    "Faliújság a beálló keleti végén, az asztal felé nézve: OSB, parafa borítás, vízvető",
+    "A tűzrakó kör 7 rekeszszéke és 3 asztalkája áthozva: a nyugati végen 5 szék 2 asztal körül, 2 a faliújság mellett"
+   ],
+   "skills": [
+    "Faliújság készítése",
+    "Egy közös tér berendezése és gondozása"
+   ],
+   "hub": "a faliújságot a munkaasztalon vágják és keretezik; a sörpad-garnitúrát a raktárában tartják",
+   "cost": {
+    "materials": [
+     ["Sörpad-garnitúra: asztal + 2 pad", "a raktárból; újonnan ≈ 45 000 Ft"],
+     ["Faliújság: OSB-maradék, 1,2 × 0,9 m-es parafalap, lécek, rajzszögek", "maradék / vásárolt"],
+     ["Csavarok és kábelkötegelők a beálló vázához rögzítéshez", "vásárolt"],
+     ["LED-es égősor ≈ 5,5 m, 10 égő, kötegelővel a beálló tetője alá", "vásárolt"],
+     ["Székek és asztalkák", "a tűzrakó körtől (7. workshop), nincs beszámítva"]
+    ],
+    "note": "Nem kell asztalt építeni: a sörpad-garnitúra a raktárból jön, az alacsony ülőhelyek a tűzrakó körtől."
+   },
+   "midway": {
+    "title": "Berendezés",
+    "text": "A nyolcadik workshop felénél. A sörpadasztal és az egyik pad már kinyitva áll a beálló alatt; a második padot a pavilon menti járdán hozzák át a raktárból. A tűzrakó kör rekeszszékei és asztalkái egyenként érkeznek a tűzrakótól a nyugati vég alacsony sarkába, az új faliújság pedig már fent van a keleti végen, rajta az első cetlik.",
+    "who": [
+     "Ketten hoznak át egy összecsukott padot a raktárból",
+     "Egy ember kihajtja az első pad lábait",
+     "Egy ember áthoz egy rekeszszéket a tűzrakó körtől",
+     "Egy ember kitűzi az első cetliket",
+     "Egy koordinátor a bejáratnál"
+    ]
+   }
+  },
+  "open": {
+   "title": "Megnyitó",
+   "when": "Ünnep",
+   "cost": {
+    "materials": [
+     ["2 LED-es égősor ≈ 15 m, soronként 21 égő, az udvaron át a pavilontól a nyugati falig", "vásárolt (kültéri, IP44)"],
+     ["3 mm-es acélsodrony ≈ 30 m a hordozásukhoz, 4 szemescsavar, 2 feszítő, sodronyszorítók", "vásárolt"],
+     ["Kültéri hosszabbító és elosztó", "vásárolt"]
+    ],
+    "note": "14 m-es fesztávra az égősor saját kábele kevés: az égőket kifeszített sodronyra csíptessük, a szemescsavarokat a ház kezelőjével egyeztetve fúrjuk a falakba."
+   },
+   "text": "A kész udvart mi nyitjuk meg, akik építettük. A mozi padjai újra előkerülnek a halomból, és megtelnek a fehér fal előtt, ahol valaki közülünk gitározik a színpadsávon; a tűz körül fő a leves. Minden rész másféle módot kínál arra, hogy együtt legyünk, vagy épp külön."
+  },
+  "yard": {
+   "title": "A te udvarod",
+   "when": "Próbáld ki",
+   "text": "Minden, amit a workshopok készítettek, egyszerre kint van: a mozi sorai, a tűzrakó kör székei és asztalkái, a gurulós ágyások a zugaikkal, a sörpad-garnitúra és a munkaasztal. Szinte minden vihető vagy gurítható. Tegyél át egy darabot az udvar egy másik pontjára, és nézd meg, hol gyűlnek össze az emberek."
+  }
+ }
+}

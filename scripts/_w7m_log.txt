@@ -1,0 +1,2 @@
+objects: charcoal 1, green 2, motif charcoal 1, motif green 1, motif ochre 2, motif offwhite 3, motif slate 1, motif terracotta 3, ochre 2, offwhite 2, slate 3, terracotta 2
+pieces tagged: 23

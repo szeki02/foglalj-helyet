@@ -1,0 +1,4 @@
+fire pit centre s -0.57 n 1.93
+fire circle objects carried over (copies): 47; originals moved to 09_Workshops::w7_fire_circle::Away_in_w8: 0
+objects: cork 1, nboard 3, notes 1, notes2 1, sleg 12, stop 6
+groups: 4

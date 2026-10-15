@@ -1,0 +1,5 @@
+renamed: none
+stored (moved to 09_Workshops::w2_workshop_space::Stored_from_w4): already
+table pieces tagged: 0
+objects: av 4, blue 7, board 33, green 8, ochre 5, paint 1, pallet 9, red 7, riser 1, ssheet 1, stab 2, stimber 7, teal 9, yellow 8
+groups: 20, crates: 38, lens at 1.62 m

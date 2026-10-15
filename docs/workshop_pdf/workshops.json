@@ -1,0 +1,104 @@
+[
+ {
+  "i": 1,
+  "no": 1,
+  "title": "Átrendezés",
+  "when": "1. workshop",
+  "areas": [
+   [
+    "Fészer bontása",
+    "Tároló",
+    "Parkolóhelyek"
+   ]
+  ],
+  "file": "w1.jpg"
+ },
+ {
+  "i": 2,
+  "no": 2,
+  "title": "Műhelytér",
+  "when": "2. workshop",
+  "areas": [
+   [
+    "Műhely",
+    "Szerszám- és anyagraktár",
+    "„B” munkaasztal"
+   ]
+  ],
+  "file": "w2.jpg"
+ },
+ {
+  "i": 3,
+  "no": 3,
+  "title": "Udvarfestmények",
+  "when": "3. workshop",
+  "areas": [
+   [
+    "Aszfaltfestmény",
+    "Betonfestmény"
+   ]
+  ],
+  "file": "w3.jpg"
+ },
+ {
+  "i": 4,
+  "no": 4,
+  "title": "Ablakplakátok",
+  "when": "4. workshop",
+  "areas": [
+   [
+    "Ablakplakátok"
+   ]
+  ],
+  "file": "w4.jpg"
+ },
+ {
+  "i": 5,
+  "no": 5,
+  "title": "Mozgó kert",
+  "when": "5. workshop",
+  "areas": [
+   [
+    "Kerti zugok",
+    "Gurulós ágyások"
+   ]
+  ],
+  "file": "w5.jpg"
+ },
+ {
+  "i": 6,
+  "no": 6,
+  "title": "Kertmozi",
+  "when": "6. workshop",
+  "areas": [
+   [
+    "Kertmozi"
+   ]
+  ],
+  "file": "w6.jpg"
+ },
+ {
+  "i": 7,
+  "no": 7,
+  "title": "Tűzrakó kör",
+  "when": "7. workshop",
+  "areas": [
+   [
+    "Tűzrakó kör"
+   ]
+  ],
+  "file": "w7.jpg"
+ },
+ {
+  "i": 8,
+  "no": 8,
+  "title": "Fedett-nyitott tér",
+  "when": "8. workshop",
+  "areas": [
+   [
+    "Fedett-nyitott tér"
+   ]
+  ],
+  "file": "w8.jpg"
+ }
+]

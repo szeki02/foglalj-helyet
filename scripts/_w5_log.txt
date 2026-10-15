@@ -1,0 +1,4 @@
+pit walls returned to 04_Furniture_Elements::Brick_Fire_Pit: 0 (pit centre s -0.57 n 1.93, top 0.45)
+put away (moved to ...::Stored_from_w5): already
+objects: blue 7, board 32, fc_blue 2, fc_board 21, fc_green 1, fc_ochre 3, fc_red 2, fc_teal 4, fc_yellow 2, green 7, iron 4, kettle 1, logs 3, ochre 3, ppallet 1, red 7, safety 1, table 12, teal 5, yellow 7
+groups: 14
