@@ -40,6 +40,10 @@ workshops).
 
 `cost_plan.md` (materials and cost per workshop) and `Alfoldi6_workshopok_A3.pdf` (the workshops on one A3 sheet).
 
+`presentation/Foglalj_helyet_bemutato.pdf`: the project presentation (19 slides, Hungarian): site analysis, the
+conversations, the concept and the eight workshops. `Foglalj_helyet_bemutato.html` is the same deck as a web page
+(open it from inside the repository so the pictures load).
+
 ## Not in this repository
 
 - The Rhino model (`rhino/*.3dm`, about 195 MB each: over GitHub's file size limit).
